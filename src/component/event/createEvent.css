@@ -1,0 +1,128 @@
+
+
+
+
+.event{
+display: flex;
+align-items: center;
+justify-content: center;
+left: calc(50% - 165.63px/2 + 0.32px);
+
+}
+
+
+
+
+.event>p{
+margin-left: -300px;
+color: #4F4F4F;
+;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 19px;
+}
+.event>h3{
+
+top: 20;
+left: calc(50% - 165.63px/2 + 0.32px);
+
+width: 293px;
+height: 49px;
+left: 59px;
+top: 44px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 41px;
+text-align: center;
+
+background: linear-gradient(90deg, #E61445 24.2%, #8456EC 120.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}  
+
+/* eventavatar */
+.eventavatar{
+    position: absolute;
+    width: 400px;
+    height:159px;
+    left: calc(30% - 165.63px/2 + 0.32px);
+    top: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../landingPage/cake.png');
+    filter: drop-shadow(0px 0px 17.6435px rgba(0, 0, 0, 0.05));
+    border-radius: 10px;
+    
+}
+/* event form */
+.eventForm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 187px;
+    height: 50px;
+    left: calc(50% - 187px/2);
+    top: 500px;
+
+
+
+}
+form{
+
+border-radius: 10px;
+/* border: 1px solid rgba(131, 129, 129, 0.61); */
+}
+form>input{
+width: 400px;
+height: 40px;
+padding: 2px;
+margin: 5px;
+border-radius: 10px;
+border: 1px solid lightgrey;
+outline-width: 0;
+font-size: 18px;
+}
+form>button{
+    width: 400px;
+    height: 40px;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    outline-width: 0;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+border-radius: 10px;
+color: white;
+    }
+
+    #btnImg{
+display: none;
+
+    }
+#photo{
+    color: white;
+position: absolute;
+font-size: 50px;
+margin-top: 30px;
+margin-left:-50%;
+}
+    /* selected image */
+
+.addPhoto>img{
+width: 410px;
+height: 200px;
+border-radius: 10px;
+}

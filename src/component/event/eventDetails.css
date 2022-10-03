@@ -1,0 +1,159 @@
+  /* Event image */
+.events{
+
+    background: #DDDDDD;
+
+}
+.events>img{
+
+position: absolute;
+width: 375px;
+height: 375px;
+left: calc(50% - 375px/2);
+top: 0px;
+}
+/* Event name */
+.eventname{
+
+
+
+position: absolute;
+width: 327px;
+height: 37px;
+left: calc(50% - 327px/2 - 4px);
+top: 386px;
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+
+color: #240D57;
+
+
+}
+
+/* Hosted by */
+.hostedname{
+    position: absolute;
+    width: 341px;
+    height: 15px;
+    left: calc(50% - 341px/2 + 3px);
+    top: 427px;
+    
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #828282;
+}
+ /* Date info */
+
+
+/* Auto layout */
+.dateInfo{
+
+    position: absolute;
+    width: 341px;
+    height: 15px;
+    left: calc(50% - 341px/2 + 3px);
+    top: 487px;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+
+height: 48px;
+
+
+/* Inside auto layout */
+
+ 
+}
+.streetInfo{
+
+    position: absolute;
+    width: 341px;
+    height: 15px;
+    left: calc(50% - 341px/2 + 3px);
+    top: 577px;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+
+height: 48px;
+
+
+
+}
+/* Icon */
+
+
+/* Auto layout */
+.icon{
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 1px;
+
+width: 48px;
+height: 48px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+
+/* Inside auto layout */
+
+
+}
+
+.fill{
+    position: absolute;
+    left: 8.33%;
+    right: 10.42%;
+    top: 26.75%;
+    bottom: 4.25%;
+    font-size: 19px;
+  color: #8456EC;
+
+}
+/* edit details */
+.events>h6{
+position: absolute;
+z-index: 70;
+margin: 10px;
+border-radius: 30px;
+font-size: 19px;
+color: white;
+padding: 10px;
+background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+}
+
+
+@media(min-width:700px){
+.event>img{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: calc(50% - 500px/2 + 266px);
+    top: 184px;
+    border-radius: 0px;
+
+}
+
+}
