@@ -15,8 +15,12 @@ const toUpperCaseFilter = (d) => {
 }
   return (
     <div className='events'>
-  
-   <img src={basket.image}/>
+  {basket.image?(
+   <img src={basket.image}/>):(
+    <img src={image}/>
+
+   )
+  }
    <h4 className='eventname'>{basket.name}</h4>
     <p className='hostedname'>Hosted by {basket.host}</p>
    <div className='dateInfo'>
